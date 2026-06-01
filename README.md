@@ -14,6 +14,20 @@ This project automates the checkout process using Selenium, Python, PyTest and P
 
 ## Run Project
 pytest -v -s
-
+## Framework Structure for CheckOut_Process
+automation-framework/
+│
+├── pages/
+│   ├── login_page.py
+│   ├── product_page.py
+│   ├── cart_page.py
+│   ├── checkout_page.py
+│
+├── tests/
+│   ├── test_checkout.py
+│
+├── utilities/
+├── testdata/
+├── conftest.py
 ## Author
 Chinmayi
